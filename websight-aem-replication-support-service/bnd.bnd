@@ -1,0 +1,3 @@
+Bundle-Name: Websight AEM Replication Support Service
+Bundle-License: GNU AGPLv3
+Sling-Model-Packages: pl.ds.websight.aem.replication.support.rest
