@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>pl.ds.websight</groupId>
   <artifactId>websight-aem-replication-support-reactor</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
   <packaging>pom</packaging>
-  <name>WebSight Aem Replication Support Reactor</name>
-  <description>The reactor pom to build all WebSight Aem Replication Support modules</description>
+  <name>WebSight AEM Replication Support Reactor</name>
+  <description>The reactor POM to build all WebSight AEM Replication Support modules</description>
   <url>https://github.com/DS-WebSight/websight-aem-replication-support</url>
   <organization>
     <name>Dynamic Solutions sp. z o.o. sp. k.</name>
@@ -35,6 +34,7 @@
     <connection>scm:git:ssh://github.com:DS-WebSight/websight-aem-replication-support.git</connection>
     <developerConnection>scm:git:ssh://github.com:DS-WebSight/websight-aem-replication-support.git</developerConnection>
     <url>https://github.com/DS-WebSight/websight-aem-replication-support</url>
+    <tag>1.0.3</tag>
   </scm>
   <build>
     <plugins>

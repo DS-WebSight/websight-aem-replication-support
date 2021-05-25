@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>pl.ds.websight</groupId>
     <artifactId>websight-frontend-parent</artifactId>
-    <version>2</version>
-    <relativePath></relativePath>
+    <version>4</version>
+    <relativePath />
   </parent>
   <artifactId>websight-aem-replication-support-view</artifactId>
-  <version>1.0.2</version>
-  <name>WebSight Aem Replication Support View</name>
-  <description>WebSight Replication Support is a module responsible for replication handling done by Rest module.</description>
+  <version>1.0.3</version>
+  <name>WebSight AEM Replication Support View</name>
+  <description>WebSight Replication Support is a module responsible for replication handling done by REST module.</description>
   <url>https://github.com/DS-WebSight/websight-aem-replication-support</url>
   <organization>
     <name>Dynamic Solutions sp. z o.o. sp. k.</name>
@@ -35,6 +34,7 @@
     <connection>scm:git:ssh://github.com:DS-WebSight/websight-aem-replication-support.git</connection>
     <developerConnection>scm:git:ssh://github.com:DS-WebSight/websight-aem-replication-support.git</developerConnection>
     <url>https://github.com/DS-WebSight/websight-aem-replication-support</url>
+    <tag>1.0.3</tag>
   </scm>
   <dependencies>
     <dependency>
@@ -84,14 +84,6 @@
         <artifactId>bnd-baseline-maven-plugin</artifactId>
         <configuration>
           <skip>true</skip>
-        </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>license-maven-plugin</artifactId>
-        <configuration>
-          <licenseName>agpl_v3</licenseName>
-          <licenseFile>${project.basedir}/LICENSE</licenseFile>
         </configuration>
       </plugin>
     </plugins>
